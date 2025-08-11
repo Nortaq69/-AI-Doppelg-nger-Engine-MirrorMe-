@@ -1,0 +1,40 @@
+{
+  "name": "ai-doppelganger-engine",
+  "version": "1.0.0",
+  "description": "AI Doppelgänger Engine - Your digital twin that lives on the internet",
+  "main": "app.py",
+  "scripts": {
+    "start": "python app.py",
+    "dev": "python app.py --reload",
+    "test": "pytest",
+    "lint": "black . && flake8 .",
+    "build": "npm run build:frontend",
+    "build:frontend": "cd dashboard && npm run build",
+    "install:frontend": "cd dashboard && npm install"
+  },
+  "keywords": [
+    "ai",
+    "doppelganger",
+    "digital-twin",
+    "personality-cloning",
+    "chatbot",
+    "nlp",
+    "machine-learning"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "emoji": "^0.3.2",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "ws": "^8.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}

@@ -1,0 +1,67 @@
+# Core AI and ML
+openai>=1.0.0
+transformers>=4.30.0
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Data processing and NLP
+nltk>=3.8
+spacy>=3.6.0
+textblob>=0.17.0
+emoji>=2.2.0
+langdetect>=1.0.9
+
+# Vector embeddings and similarity
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+chromadb>=0.4.0
+
+# Web framework and API
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+python-multipart>=0.0.6
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.11.0
+sqlite3
+
+# Platform integrations
+discord.py>=2.3.0
+tweepy>=4.14.0
+google-api-python-client>=2.95.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=1.0.0
+
+# Email processing
+imaplib
+email
+beautifulsoup4>=4.12.0
+
+# File processing
+python-docx>=0.8.11
+PyPDF2>=3.0.0
+openpyxl>=3.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+aiohttp>=3.8.0
+asyncio
+logging
+json
+datetime
+pathlib
+
+# Development and testing
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Optional: Voice processing
+speechrecognition>=3.10.0
+pydub>=0.25.0 
